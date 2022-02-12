@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+      function little(){
+        window.open("little.html")
+      }
+
+      function zelda(){
+        window.open("zelda.html")
+      }
+
+      function kena(){
+        window.open("kena.html")
+      }
+
+      function Home(){
+        window.open("index.html")
+      }
+
+      function con_update(){
+        window.open("contact.html")
+
+      }
+
+
+    </script>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Games Updates</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/run5.png">
+
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+    <link href="css/new_css.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class ="navbar">
+
+      <img src="images/run5.png">
+      <a href="#home" onclick="Home()">Home</a>
+      <a href="#update" onclick="update()">Update</a>
+      <a href="#contact" onclick="con_update()">Contact</a>
+    </div> 
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <br></br>
+          <h1 style="font-width:bold;"class="page-header"><strong style="color:grey:font-width:bold;">Get</strong> Your Information</h1>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="images/nightmare1.jpg"></a>
+          <h3><a onclick="little()"href="#project-link">Little Nightmare II</a></h3>
+          <p>A boy named Mono awakens from a dream of a door marked with an eye at the end of a long hallway.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="images/zelda.jpg"></a>
+          <h3><a onclick="zelda()"href="#project-link">The Legend of Zelda Link's Awakening</a></h3>
+          <p>The Legend of Zelda: Link's Awakening is an action-adventure game for the Nintendo Switch. It was developed by Grezzo and published by Nintendo.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="images/kena.jpg"></a>
+          <h3><a  onclick= "kena()"href="#project-link" >Kena Bridge of Sprites</a></h3>
+          <p>Play as Kena, a young Spirit Guide travelling to an abandoned village in search of the sacred mountain shrine.</p>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>        
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+    <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p> Elixer </p>
+          </div>
+        </div>
+      </footer>
+      
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+    </script>
+  </body>
+
+</html>

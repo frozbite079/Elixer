@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function update(){
+				window.open("index1.html")
+			}	
+			function Home(){
+				window.open("index.html")
+			}
+			function local(){
+				   alert("Email has Been Sended")
+			}
+
+	
+			
+		</script>	
+		<meta charset="utf-8">
+		<title>RegistrationForm_v7 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style2.css">
+		<link rel="shortcut icon" href="images/game1.png">
+	</head>
+
+	<body>
+		<div class ="navbar">
+
+	      <img src="images/run5.png">
+	      <a href="#home" onclick="Home()" >Home</a>
+	      <a href="#update" onclick="update()">Update</a>
+	      <a href="#contact" onclick="con_update()">Contact</a>
+	    </div>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="">
+					<h3>Contact Us</h3>
+					<p></p>
+					<label class="form-group">
+						<input type="text" class="form-control"  required>
+						<span>Your Name</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required>
+						<span for="">Your Mail</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group" >
+						<textarea name="" id="" class="form-control" required></textarea>
+						<span for="">Your Message</span>
+						<span class="border"></span>
+					</label>
+					<button onclick="local()">Submit 
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
